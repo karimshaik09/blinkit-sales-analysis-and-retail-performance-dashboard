@@ -194,4 +194,4 @@ The Power BI dashboard provides:
 
 Email: karimshaik1905@gmail.com 
 
-🔗 ![LinkedIn](#www.linkedin.com/in/karimshaik17)
+🔗 ![LinkedIn](https://www.linkedin.com/in/karimshaik17/)
