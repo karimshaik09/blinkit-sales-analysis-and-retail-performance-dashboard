@@ -1,6 +1,6 @@
 # 🛒 Blinkit Sales Analysis and Retail Performance Dashboard
 
-Analyzing Blinkit’s sales performance, customer satisfaction, and outlet efficiency to identify growth opportunities using Power BI.
+A data analysis project focused on understanding sales performance, customer ratings, and outlet characteristics of Blinkit using Python, Power BI Excel.
 
 ---
 
