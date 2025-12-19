@@ -140,7 +140,7 @@ The Power BI dashboard provides:
 - Trend analysis using outlet establishment year
 - Interactive slicers for dynamic filtering
 ![Dashboard](https://github.com/karimshaik09/blinkit-sales-analysis-and-retail-performance-dashboard/blob/ec6a1e123dcd302e810f5108f8b1814627632569/Images/Screenshot%202025-12-16%20130526.png)
-![alt text](image-1.png)
+![Dashboard]([image-1.png](https://github.com/karimshaik09/blinkit-sales-analysis-and-retail-performance-dashboard/blob/bf7f10dafad8e3ce975fe58d863d9b5ebf5eb3b9/Images/Screenshot%202025-12-16%20130500.png)
 ---
 
 ## Key Insights
