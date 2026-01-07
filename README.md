@@ -12,6 +12,7 @@ A data analysis project focused on understanding sales performance, customer rat
 - [Project Structure](#project-structure)
 - [Data Cleaning & Preparation](#data-cleaning--preparation)
 - [Exploratory Data Analysis (EDA)](#exploratory-data-analysis-eda)
+- [SQL Analysis](#sql-analysis)
 - [Key KPIs & Metrics](#key-kpis--metrics)
 - [Dashboard](#dashboard)
 - [Key Insights](#key-insights)
@@ -88,6 +89,9 @@ blinkit-sales-data-analysis/
 │   ├── exploratory_data_analysis.ipynb
 │   ├── vblinkit.ipynb
 │
+├── sql/                        # SQL analysis scripts
+│   └── blinkit.sql
+│
 ├── dashboard/                  # Power BI dashboard file
 │   └── blinkit.pbix 
 ```
@@ -120,7 +124,19 @@ The EDA phase focused on understanding data distribution and patterns before vis
 EDA helped guide KPI selection and dashboard design.
 
 ---
+##  SQL Analysis
 
+This project includes a dedicated SQL analysis file that focuses on cleaning, analyzing, and extracting business insights from the Blinkit sales dataset.
+
+The SQL file performs the following tasks:
+
+- Cleans and standardizes inconsistent data values to improve data quality (e.g., item fat content categories).
+- Calculates key business KPIs such as total sales, average sales, number of items sold, and average customer ratings.
+- Analyzes sales performance by product attributes including item type, fat content, and product visibility.
+- Evaluates outlet performance across outlet size, location type, outlet type, and establishment year.
+- Identifies high-performing outlets and top outlet types within each location using ranking logic.
+- Measures contribution and percentage share of sales across different outlet and product categories.
+---
 ##  Key KPIs & Metrics
 
 - **Total Sales** – Overall revenue generated
@@ -171,7 +187,14 @@ The Power BI dashboard provides:
 
 - Run all cells in Jupyter Notebook
 
-4. Power BI Dashboard:
+4. SQL Analysis:
+- Import the dataset into a database table named `blinkit_data`.
+
+- Open and run the `blinkit.sql` file in your SQL Server Managment Studio .
+
+
+
+5. Power BI Dashboard:
 
 - Open ```blinkit.pbix``` in Power BI Desktop
 
